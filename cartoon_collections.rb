@@ -11,7 +11,7 @@ def long_planeteer_calls(long_planeteer_calls)
 end
 
 # Rework using #detect/#find
-def find_the_cheese(array)
+def find_the_cheese(ingredients_list)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.detect {|ingredient| cheese_types.include?(ingredient)}
+  ingredients_list.detect {|ingredient| cheese_types.include?(ingredient)}
 end
